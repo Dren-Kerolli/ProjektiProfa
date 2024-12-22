@@ -1,0 +1,39 @@
+/* File: styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+
+}
+
+ul li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 45px;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #555;
+}
